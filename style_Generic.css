@@ -1,0 +1,93 @@
+* {
+	font: 10pt black "Verdana";
+}
+
+#ToDoAppsClass {
+	background-color: #003049;
+}
+
+#ToDoAppsClass #TitleBarFrame {
+	background-color: #9ed9f8;
+}
+
+#ToDoAppsClass #AddToDoList {
+	background-color: #dcf0fa;
+}
+
+#ToDoAppsClass #TitleBarFrame,
+#ToDoAppsClass #AddToDoList {
+	border-radius: 10px;
+	border-top: 1px solid #1eacfa;
+	border-bottom: 1px solid #1eacfa;
+	border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #1eacfa, stop: 0.5 #71889c, stop: 1.0 #1eacfa);
+	border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #1eacfa, stop: 0.5 #71889c, stop: 1.0 #1eacfa);
+}
+
+#ToDoAppsClass #NewTaskText, 
+#ToDoAppsClass #TitleText {
+	font: bold 11pt black "Verdana";
+}
+
+#ToDoAppsClass #AllNewTasks,
+#ToDoAppsClass #AllNewTasksContents {
+	border: none;
+	background-color: #103549;
+}
+
+#ToDoAppsClass QPushButton {
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	border: 3px;
+    border-color: rgb(182, 120, 4);
+    border-style: outset;
+    background-color: orange;
+	color: black;
+	font: 10pt "Verdana";
+}
+#ToDoAppsClass QPushButton::disabled{
+	background-color:#dddddd;
+    border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+
+#ToDoAppsClass QPushButton:hover{
+   background-color: rgb(182, 120, 4);
+   border-color: orange;
+   color: white;
+}
+
+#ToDoAppsClass QPushButton:pressed{
+   background-color: #aaaaaa;
+}
+
+#ToDoAppsClass QPushButton:checked{
+   background-color:  #1eacfa;
+   border-color: #16587d;
+}
+
+#ToDoAppsClass QScrollBar:vertical {             
+	border: 1px solid #9ed9f8;
+	background:#9ed9f8;
+	width:5px;    
+	margin: 0px 0px 0px 0px;
+}
+
+#ToDoAppsClass QScrollBar::handle:vertical {
+	background:#1eacfa;
+	min-height: 0px;
+}
+
+#ToDoAppsClass QScrollBar::add-line:vertical {
+	background:#1eacfa;
+	height: 0px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+#ToDoAppsClass QScrollBar::sub-line:vertical {
+	background:#1eacfa;
+	height: 0 px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
